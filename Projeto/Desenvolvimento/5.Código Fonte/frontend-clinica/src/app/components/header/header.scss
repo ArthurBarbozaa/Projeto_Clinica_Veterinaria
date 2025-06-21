@@ -1,0 +1,31 @@
+.app-header{    
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+   padding: 0px 150px;
+    
+}
+.header-li{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 80px;
+
+    a{
+        text-decoration: none;
+        color: rgb(50, 46, 190);
+
+       
+    }
+
+     a:hover{
+            color:rgb(26, 40, 100);
+           
+        }
+}
+

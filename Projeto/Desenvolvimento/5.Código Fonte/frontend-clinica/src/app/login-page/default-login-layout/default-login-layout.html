@@ -1,0 +1,24 @@
+<main>
+    <section class="form-section">
+        <img src="/assets/logoclean.png" width="180" height="136">
+        <h2>{{title}}</h2>
+        <ng-content>
+            
+        </ng-content>
+        <div class="gap-btn">
+        <button class="btn-primary" (click)="submit()">{{primaryBtnText}}</button>
+        <div style="color:rgb(78, 12, 119); display: flex; justify-content: center; align-items: center;">
+        <span style="font-size: 12px;width: 100%; letter-spacing: -2px;" >
+            -----------------------------------</span>
+            <span style="color:rgb(78, 12, 119); font-weight: 600; padding: 7px;">ou</span>
+          <span style="font-size: 12px; letter-spacing: -2px;">
+            -----------------------------------</span>
+        </div>
+        <button class="btn-secondary" (click)="navigate()">{{secondaryBtnText}}</button>
+        </div>
+    </section>
+    <section class="main-section">
+        <h1>Venha já para a CuidaPet!</h1>
+        <img src="/assets/logo1.png" width="600" height="400">
+    </section>
+</main>
