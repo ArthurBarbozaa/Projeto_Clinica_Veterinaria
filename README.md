@@ -1,7 +1,7 @@
 # 🐾 Projeto Clínica Veterinária
 Sistema de gerenciamento para clínicas veterinárias, desenvolvido em Java, com foco em facilitar o controle de atendimentos, cadastros de clientes, pets, funcionários e agendamentos para vacinação.\
 
-Back-end em **Java (MVC + JDBC + MySQL)** e front-end com **HTML/CSS/JavaScript puro**.
+Back-end em **Java (utilizando Spring Boot)** e front-end com **HTML/CSS/JavaScript puro**.
 
 
 ## 📁 Estrutura do Projeto
@@ -15,9 +15,7 @@ Back-end em **Java (MVC + JDBC + MySQL)** e front-end com **HTML/CSS/JavaScript 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 11+**
-- **JDBC**
-- **MySQL**
+- **Spring Boot**
 - **HTML5 / CSS / JavaScript**
 
 
@@ -37,7 +35,7 @@ Back-end em **Java (MVC + JDBC + MySQL)** e front-end com **HTML/CSS/JavaScript 
 ## 🧠 Arquitetura
 
 **MVC (Model-View-Controller)**  
-- `Model/` – Entidades (JavaBeans)  
+- `Model/` – Entidades  
 - `Controller/` – Lógica de negócio  
 - `View/` – HTML/CSS/JS 
 
