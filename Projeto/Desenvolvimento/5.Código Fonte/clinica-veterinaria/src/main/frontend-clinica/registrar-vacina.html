@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Vacina - Clínica Pet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="dashboard-layout">
+    <aside class="sidebar">
+        <div class="logo">Veterinário Dashboard</div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="veterinario-dashboard.html"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i> Minhas Consultas</a></li>
+                <li><a href="#"><i class="fas fa-paw"></i> Gerenciar Pets</a></li>
+                <li><a href="registrar-vacina.html"><i class="fas fa-syringe"></i> Registrar Vacina</a></li>
+                <li><a href="#" id="logoutButton"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="dashboard-content">
+        <header class="dashboard-header">
+            <h1>Registrar Aplicação de Vacina</h1>
+        </header>
+
+        <section class="dashboard-section">
+            <form id="registrarVacinaForm" class="form-vacina">
+                <div class="form-group">
+                    <label for="petIdVacina">Selecione o Pet:</label>
+                    <select id="petIdVacina" required>
+                        <option value="">Carregando pets...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tipoVacinaId">Tipo da Vacina:</label>
+                    <select id="tipoVacinaId" required>
+                        <option value="">Carregando tipos de vacina...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dataAplicacao">Data de Aplicação:</label>
+                    <input type="date" id="dataAplicacao" name="dataAplicacao" required>
+                </div>
+                <div class="form-group">
+                    <label for="fabricante">Fabricante:</label>
+                    <input type="text" id="fabricante" name="fabricante" required>
+                </div>
+                <button type="submit" class="btn-primary">Registrar Vacina</button>
+            </form>
+        </section>
+    </main>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/common.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/veterinario.js"></script> </body>
+</html>
